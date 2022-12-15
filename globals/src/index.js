@@ -1,3 +1,11 @@
+const doc = document.documentElement;
+doc.setAttribute(
+  "data-qb-2-tld",
+  window.location.host.split(".").slice(-2).join(".")
+);
+doc.setAttribute("data-qb-url", window.location.href);
+doc.setAttribute("data-qb-domain", window.location.host);
+
 console.log("Globals loaded, greasemonkey presumed to be working");
 const BLOCK_LEVEL_ELEMENTS_LIST =
   "address, article, aside, blockquote, details, dialog, dd, div, dl, dt, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, li, main, nav, ol, p, pre, section, table, ul";

@@ -1,16 +1,3 @@
-// ==UserScript==
-// @name         Wik feature supplement
-// @namespace    samswartzberg.com
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @include      https://en.wik*.org/*
-// @grant        none
-// @run-at       document-idle
-// @updateUrl    https://raw.githubusercontent.com/SamuelSwartzberg/config/master/non-shell-scripts/browser/userscripts/wik-feature-supplement.js
-// @downloadURL  https://raw.githubusercontent.com/SamuelSwartzberg/config/master/non-shell-scripts/browser/userscripts/wik-feature-supplement.js
-// ==/UserScript==
-
 let wordClassList = [
   "Noun",
   "Adjective",

@@ -1,16 +1,3 @@
-// ==UserScript==
-// @name         Jisho feature supplement
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://jisho.org/*
-// @grant        none
-// @updateUrl    https://raw.githubusercontent.com/SamuelSwartzberg/config/master/non-shell-scripts/browser/userscripts/jisho-feature-supplement.js
-// @downloadURL  https://raw.githubusercontent.com/SamuelSwartzberg/config/master/non-shell-scripts/browser/userscripts/jisho-feature-supplement.js
-// @run-at       document-idle
-// ==/UserScript==
-
 (function () {
   "use strict";
 

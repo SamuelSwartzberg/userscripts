@@ -8,6 +8,10 @@
     "build": "build-usercode script",
     "install": "install-usercode script"
   },
+  "match_urls": [
+    "https://*/*"
+  ],
+  "grant": "none",
   "keywords": [],
   "author": "",
   "license": "ISC",

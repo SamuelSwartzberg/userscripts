@@ -9,6 +9,10 @@
     "install": "install-usercode script"
   },
   "keywords": [],
+  "match_urls": [
+    "https://jisho.org/*"
+  ],
+  "grant": "none",
   "author": "",
   "license": "ISC",
   "dependencies": {

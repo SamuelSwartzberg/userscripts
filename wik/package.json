@@ -1,7 +1,7 @@
 {
   "name": "wik",
   "version": "0.0.1",
-  "description": "",
+  "description": "userscripts that work on mediawiki and similar sites",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,6 +9,12 @@
     "install": "install-usercode script"
   },
   "keywords": [],
+  "match_urls": [
+    "https://*.wikipedia.org/wiki/*",
+    "https://*.wiktionary.org/wiki/*",
+    "https://*.glottopedia.org/*"
+  ],
+  "grant": "none",
   "author": "",
   "license": "ISC",
   "dependencies": {
